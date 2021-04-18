@@ -6,7 +6,14 @@ Card::Card()
 
 }
 
-Card::Crad(Suit suit, Value value, char serialNumber)
+Card::Card(Suit suit, Value value, char serialNumber)
+{
+	this->suit = suit;
+	this->value = value;
+	this->serialNumber = serialNumber;
+}
+
+void Card::displayCard(const Card&)
 {
 
 }
